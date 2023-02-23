@@ -1,7 +1,7 @@
 # SportSee
 
 <p align="center">
-  <img src="./sportsee/src/assets/sportsee_logo.svg" width="500px">
+  <img src="../sportsee/src/assets/sportsee_logo.svg" width="500px">
 </p>
 
 ## PROJECT OVERVIEW

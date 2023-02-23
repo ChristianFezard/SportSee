@@ -3,7 +3,7 @@
 
 ## PROJECT OVERVIEW
 
-SportSee, a growing startup dedicated to sport coaching, is releasing a nex version of user's page. This page will allow users to track the number of calories burnt as well as the number sessions attended.
+SportSee, a growing startup dedicated to sport coaching, is releasing a new version of user's page. This page will allow users to track the number of calories burnt as well as the number sessions attended.
 
 ## TECHNOLOGIES
 

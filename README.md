@@ -1,9 +1,5 @@
 # SportSee
 
-<p align="center">
-  <img src="../sportsee/src/assets/sportsee_logo.svg" width="500px">
-</p>
-
 ## PROJECT OVERVIEW
 
 SportSee, a growing startup dedicated to sport coaching, is releasing a nex version of user's page. This page will allow users to track the number of calories burnt as well as the number sessions attended.
@@ -27,7 +23,7 @@ Follow the instructions to launch it.
 
 ## FRONT-END
 
-The fron-end is available <a href=#>here</a>.
+The fron-end is available <a href=https://github.com/ChristianFezard/SportSee_23022023>here</a>.
 1. You will need to use a terminal to clone the repository.
 2. Use the command "npm install" to install it.
 3. To start the application, use the command "npm start"

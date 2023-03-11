@@ -1,6 +1,6 @@
 .barContainer{
     width: 100%;
-    width: 835px;
+    min-width: 835px;
     height: 320px;
     background-color: #fbfbfb;
     border-radius: 5px;
@@ -44,4 +44,11 @@
 
 .weight::before{
     background-color: #282D30;
+}
+
+@media (max-width: 1400px){
+    .barContainer{
+        width: 100%;
+        min-width: unset;
+    }
 }

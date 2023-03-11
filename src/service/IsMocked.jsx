@@ -266,7 +266,7 @@ const USER_MAIN_DATA = [
    * @return {object} res 
    */
 
-  export default class callMock {
+  export default class CallMock {
     static getInfos = async (userId) => {
       const res = USER_MAIN_DATA.find((el) => el.id === parseInt(userId));
       return { data: res };

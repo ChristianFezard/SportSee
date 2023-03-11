@@ -1,5 +1,6 @@
 .tagContainer{
-    width: 258px;
+    width: 100%;
+    min-width: 258px;
     height: 124px;
     display: flex;
     align-items: center;
@@ -27,3 +28,11 @@
     font-weight: 500;
     color: #74798C;
 }
+
+@media (max-width: 1400px){
+    .tagContainer{
+        width: calc((100%/2) - (20px/2));
+        margin-bottom: 0px;
+    }
+}
+

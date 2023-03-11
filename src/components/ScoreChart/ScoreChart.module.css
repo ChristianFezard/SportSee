@@ -1,6 +1,7 @@
 .scoreContainer{
     position: relative;
-    width: 258px;
+    width: 100%;
+    min-width: 258px;
     height: 263px;
     background: #fbfbfb;
     border-radius: 5px;

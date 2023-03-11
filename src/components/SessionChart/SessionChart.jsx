@@ -65,7 +65,7 @@ const SessionChart = () => {
             </h2>
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={data} margin={{ top: 0, left: 15, right: 15, bottom: 10 }}>
-                    <XAxis dataKey="index" stroke="#ffffff" tickline={false} axisline={false} tick={{ fontSize: 12, fontWeight: 500, }}/>
+                    <XAxis dataKey="day" stroke="#ffffff" tickline={false} axisline={false} tick={{ fontSize: 12, fontWeight: 500, }}/>
                     <YAxis hide={true} domain={[ 0, "dataMax + 30" ]}/>
                     <Tooltip content={<CustomToolTip />} wrapperStyle={{ outline: "none" }}/>
                     <Line type="monotone" dataKey="sessionLength" unit="min" stroke="#ffffff" strokeWidth={2} dot={false}/>

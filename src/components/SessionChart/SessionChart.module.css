@@ -1,7 +1,7 @@
 .sessionContainer{
     position: relative;
     width: 100%;
-    max-width: 258px;
+    min-width: 258px;
     height: 263px;
     background-color: #FF0000;
     border-radius: 5px;

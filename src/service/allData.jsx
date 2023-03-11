@@ -1,10 +1,12 @@
-import callMock from "./IsMocked";
+import CallMock from "./IsMocked";
 import CallApi from "./callApi";
 
-let callOnApi = true
+const callOnApi = true
 
-const callOnData = callOnApi === "true" ? CallApi : callMock;
+const callOnData = callOnApi === true ? CallApi : CallMock;
 export default callOnData;
+
+console.log(callOnData)
 
 /**
  * @param {string} kind 

@@ -24,11 +24,13 @@ const BarBoard = () =>{
         data();
     }, [userId])
 
-    if (data.lenght === 0) return null
-
     for(let i = 0; i < data.length; i++) {
         data[i].index = i + 1
     }
+
+    if (data.length === 0) return(
+        <p>Données des activités non disponible</p>
+    )
 
     return (
         <div className={style.barContainer}>

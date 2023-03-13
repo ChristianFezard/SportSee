@@ -39,6 +39,17 @@ const User = () => {
         data()
     }, [userId])
 
+    if (data.length === 0) return(
+        <>
+            <HorizontalNav/>
+            <VerticalNav/>
+            <div className={style.notFound}>
+                <h1>Données de profile non disponibles</h1>
+                <p>Veuillez nous excusez de la gêne occasionnée...</p>
+            </div>
+        </>
+    )
+
     return(
         <>
             <HorizontalNav/>

@@ -20,7 +20,7 @@ export default class CallApi {
             const result = await url.get(`http://localhost:3000/user/${userId}`)
             return result.data
         } catch (error) {
-            console.log(error.result.data)
+            console.log(error)
         }
     }
   

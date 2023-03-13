@@ -23,7 +23,7 @@ const Tag = ({icon, alt, count, category}) => {
 }
 
 Tag.propTypes = {
-    icon: PropTypes.any,
+    icon: PropTypes.string,
     alt: PropTypes.string,
     count: PropTypes.string,
     category: PropTypes.string,

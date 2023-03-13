@@ -26,7 +26,7 @@ Follow the instructions to launch it.
 The front-end is available <a href="https://github.com/ChristianFezard/SportSee_23022023">here</a>.
 
 1. You will need to use a terminal to clone the repository.
-2. Use the command "npm install" to install it.
+2. Place yourself in the sportsee directory and use the command "npm install" to install the dependencies.
 3. To start the application, use the command "npm start"
 4. When the terminal says "Something is already running on port 3000. Would you like to run the app on another port instead? (Y/N)"
 Press Y and you are good to go.

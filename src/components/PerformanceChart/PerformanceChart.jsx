@@ -41,7 +41,9 @@ const PerformanceChart = () => {
         }
         data()
     }, [userId])
-    if (data.length === 0) return null
+    if (data.length === 0) return(
+        <p>Données des performances non disponibles</p>
+    )
 
     return (
         <div className={style.performanceContainer}>

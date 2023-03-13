@@ -44,7 +44,9 @@ const SessionChart = () => {
         data()  
     }, [userId])
 
-    if (data.length === undefined) return null
+    if (data.length === 0) return(
+        <p>Données des sessions non disponibles</p>
+    )
 
     const CustomToolTip = ({active, payload}) => {
         if (active && payload && payload.length) {

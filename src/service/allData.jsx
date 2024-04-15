@@ -1,7 +1,7 @@
 import CallMock from "./IsMocked";
 import CallApi from "./callApi";
 
-const callOnApi = true
+const callOnApi = false
 
 const callOnData = callOnApi === true ? CallApi : CallMock;
 export default callOnData;
